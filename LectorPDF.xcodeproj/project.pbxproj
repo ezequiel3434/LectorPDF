@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3718B3D424AFFAC200050F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3D324AFFAC200050F38 /* AppDelegate.swift */; };
+		3718B3D624AFFAC200050F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3D524AFFAC200050F38 /* SceneDelegate.swift */; };
+		3718B3D824AFFAC200050F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3D724AFFAC200050F38 /* ViewController.swift */; };
+		3718B3DB24AFFAC200050F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3718B3D924AFFAC200050F38 /* Main.storyboard */; };
+		3718B3DD24AFFAC300050F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3718B3DC24AFFAC300050F38 /* Assets.xcassets */; };
+		3718B3E024AFFAC300050F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */; };
+		3718B3EB24AFFAC300050F38 /* LectorPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3EA24AFFAC300050F38 /* LectorPDFTests.swift */; };
+		3718B3F624AFFAC300050F38 /* LectorPDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3F524AFFAC300050F38 /* LectorPDFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3718B3E724AFFAC300050F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3718B3C824AFFAC200050F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3718B3CF24AFFAC200050F38;
+			remoteInfo = LectorPDF;
+		};
+		3718B3F224AFFAC300050F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3718B3C824AFFAC200050F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3718B3CF24AFFAC200050F38;
+			remoteInfo = LectorPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3718B3D024AFFAC200050F38 /* LectorPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectorPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3718B3D324AFFAC200050F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3718B3D524AFFAC200050F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3718B3D724AFFAC200050F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3718B3DA24AFFAC200050F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3718B3DC24AFFAC300050F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3718B3DF24AFFAC300050F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3718B3E124AFFAC300050F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3718B3E624AFFAC300050F38 /* LectorPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectorPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3718B3EA24AFFAC300050F38 /* LectorPDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectorPDFTests.swift; sourceTree = "<group>"; };
+		3718B3EC24AFFAC300050F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3718B3F124AFFAC300050F38 /* LectorPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectorPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3718B3F524AFFAC300050F38 /* LectorPDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectorPDFUITests.swift; sourceTree = "<group>"; };
+		3718B3F724AFFAC300050F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3718B3CD24AFFAC200050F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3E324AFFAC300050F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3EE24AFFAC300050F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3718B3C724AFFAC200050F38 = {
+			isa = PBXGroup;
+			children = (
+				3718B3D224AFFAC200050F38 /* LectorPDF */,
+				3718B3E924AFFAC300050F38 /* LectorPDFTests */,
+				3718B3F424AFFAC300050F38 /* LectorPDFUITests */,
+				3718B3D124AFFAC200050F38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3718B3D124AFFAC200050F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3718B3D024AFFAC200050F38 /* LectorPDF.app */,
+				3718B3E624AFFAC300050F38 /* LectorPDFTests.xctest */,
+				3718B3F124AFFAC300050F38 /* LectorPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3718B3D224AFFAC200050F38 /* LectorPDF */ = {
+			isa = PBXGroup;
+			children = (
+				3718B3D324AFFAC200050F38 /* AppDelegate.swift */,
+				3718B3D524AFFAC200050F38 /* SceneDelegate.swift */,
+				3718B3D724AFFAC200050F38 /* ViewController.swift */,
+				3718B3D924AFFAC200050F38 /* Main.storyboard */,
+				3718B3DC24AFFAC300050F38 /* Assets.xcassets */,
+				3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */,
+				3718B3E124AFFAC300050F38 /* Info.plist */,
+			);
+			path = LectorPDF;
+			sourceTree = "<group>";
+		};
+		3718B3E924AFFAC300050F38 /* LectorPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				3718B3EA24AFFAC300050F38 /* LectorPDFTests.swift */,
+				3718B3EC24AFFAC300050F38 /* Info.plist */,
+			);
+			path = LectorPDFTests;
+			sourceTree = "<group>";
+		};
+		3718B3F424AFFAC300050F38 /* LectorPDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3718B3F524AFFAC300050F38 /* LectorPDFUITests.swift */,
+				3718B3F724AFFAC300050F38 /* Info.plist */,
+			);
+			path = LectorPDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3718B3CF24AFFAC200050F38 /* LectorPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3718B3FA24AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDF" */;
+			buildPhases = (
+				3718B3CC24AFFAC200050F38 /* Sources */,
+				3718B3CD24AFFAC200050F38 /* Frameworks */,
+				3718B3CE24AFFAC200050F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LectorPDF;
+			productName = LectorPDF;
+			productReference = 3718B3D024AFFAC200050F38 /* LectorPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3718B3E524AFFAC300050F38 /* LectorPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3718B3FD24AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDFTests" */;
+			buildPhases = (
+				3718B3E224AFFAC300050F38 /* Sources */,
+				3718B3E324AFFAC300050F38 /* Frameworks */,
+				3718B3E424AFFAC300050F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3718B3E824AFFAC300050F38 /* PBXTargetDependency */,
+			);
+			name = LectorPDFTests;
+			productName = LectorPDFTests;
+			productReference = 3718B3E624AFFAC300050F38 /* LectorPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3718B3F024AFFAC300050F38 /* LectorPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3718B40024AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDFUITests" */;
+			buildPhases = (
+				3718B3ED24AFFAC300050F38 /* Sources */,
+				3718B3EE24AFFAC300050F38 /* Frameworks */,
+				3718B3EF24AFFAC300050F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3718B3F324AFFAC300050F38 /* PBXTargetDependency */,
+			);
+			name = LectorPDFUITests;
+			productName = LectorPDFUITests;
+			productReference = 3718B3F124AFFAC300050F38 /* LectorPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3718B3C824AFFAC200050F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ezequiel Parada";
+				TargetAttributes = {
+					3718B3CF24AFFAC200050F38 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3718B3E524AFFAC300050F38 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3718B3CF24AFFAC200050F38;
+					};
+					3718B3F024AFFAC300050F38 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3718B3CF24AFFAC200050F38;
+					};
+				};
+			};
+			buildConfigurationList = 3718B3CB24AFFAC200050F38 /* Build configuration list for PBXProject "LectorPDF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3718B3C724AFFAC200050F38;
+			productRefGroup = 3718B3D124AFFAC200050F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3718B3CF24AFFAC200050F38 /* LectorPDF */,
+				3718B3E524AFFAC300050F38 /* LectorPDFTests */,
+				3718B3F024AFFAC300050F38 /* LectorPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3718B3CE24AFFAC200050F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3718B3E024AFFAC300050F38 /* LaunchScreen.storyboard in Resources */,
+				3718B3DD24AFFAC300050F38 /* Assets.xcassets in Resources */,
+				3718B3DB24AFFAC200050F38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3E424AFFAC300050F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3EF24AFFAC300050F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3718B3CC24AFFAC200050F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3718B3D824AFFAC200050F38 /* ViewController.swift in Sources */,
+				3718B3D424AFFAC200050F38 /* AppDelegate.swift in Sources */,
+				3718B3D624AFFAC200050F38 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3E224AFFAC300050F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3718B3EB24AFFAC300050F38 /* LectorPDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718B3ED24AFFAC300050F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3718B3F624AFFAC300050F38 /* LectorPDFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3718B3E824AFFAC300050F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3718B3CF24AFFAC200050F38 /* LectorPDF */;
+			targetProxy = 3718B3E724AFFAC300050F38 /* PBXContainerItemProxy */;
+		};
+		3718B3F324AFFAC300050F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3718B3CF24AFFAC200050F38 /* LectorPDF */;
+			targetProxy = 3718B3F224AFFAC300050F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3718B3D924AFFAC200050F38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3718B3DA24AFFAC200050F38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3718B3DF24AFFAC300050F38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3718B3F824AFFAC300050F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3718B3F924AFFAC300050F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3718B3FB24AFFAC300050F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3718B3FC24AFFAC300050F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3718B3FE24AFFAC300050F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LectorPDF.app/LectorPDF";
+			};
+			name = Debug;
+		};
+		3718B3FF24AFFAC300050F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LectorPDF.app/LectorPDF";
+			};
+			name = Release;
+		};
+		3718B40124AFFAC300050F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LectorPDF;
+			};
+			name = Debug;
+		};
+		3718B40224AFFAC300050F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF4PD98CF;
+				INFOPLIST_FILE = LectorPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradabeltran.LectorPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LectorPDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3718B3CB24AFFAC200050F38 /* Build configuration list for PBXProject "LectorPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718B3F824AFFAC300050F38 /* Debug */,
+				3718B3F924AFFAC300050F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3718B3FA24AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718B3FB24AFFAC300050F38 /* Debug */,
+				3718B3FC24AFFAC300050F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3718B3FD24AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718B3FE24AFFAC300050F38 /* Debug */,
+				3718B3FF24AFFAC300050F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3718B40024AFFAC300050F38 /* Build configuration list for PBXNativeTarget "LectorPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718B40124AFFAC300050F38 /* Debug */,
+				3718B40224AFFAC300050F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3718B3C824AFFAC200050F38 /* Project object */;
+}
