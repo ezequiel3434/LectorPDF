@@ -34,11 +34,12 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BYZ-38-t0r" id="GQk-Kx-1pA"/>
+                            <outlet property="delegate" destination="BYZ-38-t0r" id="IAC-Zr-PzT"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="G42-sh-mD6"/>
-                    <connections>
-                        <outlet property="tabla" destination="4Jd-p6-KTt" id="Chf-4f-6ud"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

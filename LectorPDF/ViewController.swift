@@ -8,34 +8,38 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource {
     
     
     
     
-    
-    @IBOutlet var tabla: UITableView!
+    var contenidoCelda = ["pdf1", "pdf2", "pdf3"]
+   
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabla.dataSource = self
-        tabla.delegate = self
+      
     }
     
+  
+
+    
+
+}
+
+extension ViewController:  UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = UITableViewCell()
-        celda.textLabel?.text = "Ezequiel"
-        return celda
-    }
-
-    
-
+        return contenidoCelda.count
+      }
+      
+      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celda = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
+        
+        celda.textLabel?.text = contenidoCelda[indexPath.row]
+          return celda
+      }
 }
 
 
