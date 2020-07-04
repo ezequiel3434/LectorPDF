@@ -23,6 +23,21 @@ class ViewController: UIViewController, UITableViewDataSource {
       
     }
     
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+       
+        if segue.identifier! == "pantallaDosSegue" {
+             let idPdfRecibido = sender as! Int
+            
+            let objPantalla2: ViewController2 = segue.destination as! ViewController2
+            print(contenidoCelda[idPdfRecibido])
+            
+            objPantalla2.nombrePdfRecibido = contenidoCelda[idPdfRecibido]
+        }
+    }
+    
   
 
     
@@ -40,7 +55,27 @@ extension ViewController:  UITableViewDelegate {
         celda.textLabel?.text = contenidoCelda[indexPath.row]
           return celda
       }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let idPdfSelected = indexPath.row
+        
+        self.performSegue(withIdentifier: "pantallaDosSegue", sender: idPdfSelected)
+        
+        
+        
+       
+    }
+    
+    
+    
+    
 }
+
+
+
+
+
 
 
 

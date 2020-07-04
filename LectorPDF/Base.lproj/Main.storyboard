@@ -40,6 +40,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="G42-sh-mD6"/>
+                    <connections>
+                        <segue destination="iZ0-JQ-p6g" kind="show" identifier="pantallaDosSegue" id="CMB-eK-cBp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
