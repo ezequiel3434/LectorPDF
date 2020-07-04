@@ -15,6 +15,7 @@
 		3718B3E024AFFAC300050F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */; };
 		3718B3EB24AFFAC300050F38 /* LectorPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3EA24AFFAC300050F38 /* LectorPDFTests.swift */; };
 		3718B3F624AFFAC300050F38 /* LectorPDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B3F524AFFAC300050F38 /* LectorPDFUITests.swift */; };
+		3718B40424B0FC4300050F38 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718B40324B0FC4300050F38 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3718B3F124AFFAC300050F38 /* LectorPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectorPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3718B3F524AFFAC300050F38 /* LectorPDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectorPDFUITests.swift; sourceTree = "<group>"; };
 		3718B3F724AFFAC300050F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3718B40324B0FC4300050F38 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3718B3D324AFFAC200050F38 /* AppDelegate.swift */,
 				3718B3D524AFFAC200050F38 /* SceneDelegate.swift */,
 				3718B3D724AFFAC200050F38 /* ViewController.swift */,
+				3718B40324B0FC4300050F38 /* ViewController2.swift */,
 				3718B3D924AFFAC200050F38 /* Main.storyboard */,
 				3718B3DC24AFFAC300050F38 /* Assets.xcassets */,
 				3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3718B3D824AFFAC200050F38 /* ViewController.swift in Sources */,
+				3718B40424B0FC4300050F38 /* ViewController2.swift in Sources */,
 				3718B3D424AFFAC200050F38 /* AppDelegate.swift in Sources */,
 				3718B3D624AFFAC200050F38 /* SceneDelegate.swift in Sources */,
 			);
