@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController2: UIViewController {
 
     
+    @IBOutlet var vistaWeb: WKWebView!
     
     
     var nombrePdfRecibido: String?
@@ -18,7 +20,28 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        // Do any additional setup after loading the view.
+        habilitarZoom()
+        mostrarPDF()
+    }
+    
+    func habilitarZoom(){
+        vistaWeb.scalesLargeContentImage = true
+    }
+    
+    
+    
+    func mostrarPDF(){
+        
+        // 1- URL del archivo PDF
+        
+        let direccionPDF = URL(fileURLWithPath: Bundle.main.path(forResource: nombrePdfRecibido!, ofType: "pdf", inDirectory: "PDF")!)
+        
+        // 2- Transformar  archivo PDF a Data
+        
+        let datosPDF = try? Data(contentsOf: direccionPDF)
+        // 3- Mostrar datos en la vista Web
+        
+        vistaWeb.load(datosPDF!, mimeType: "application/pdf", characterEncodingName: "utf-8", baseURL: direccionPDF)
     }
     
 
