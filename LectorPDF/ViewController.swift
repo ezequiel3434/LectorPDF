@@ -53,6 +53,7 @@ extension ViewController:  UITableViewDelegate {
         let celda = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
         
         celda.textLabel?.text = contenidoCelda[indexPath.row]
+        celda.imageView!.image = UIImage(named: "Libro.jpg")
           return celda
       }
     
@@ -74,7 +75,7 @@ extension ViewController:  UITableViewDelegate {
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             contenidoCelda.remove(at: indexPath.row)
-            tableView.reloadData() 
+            tableView.reloadData()
         }
     }
     

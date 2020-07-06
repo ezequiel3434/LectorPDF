@@ -19,6 +19,7 @@
 		3718B40624B1201B00050F38 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 3718B40524B1201B00050F38 /* PDF */; };
 		3718B40924B134CC00050F38 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3718B40824B134CC00050F38 /* WebKit.framework */; };
 		3718B40B24B1379F00050F38 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3718B40A24B1379F00050F38 /* images */; };
+		3722284D24B3B62000B81599 /* Libro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3722284C24B3B62000B81599 /* Libro.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3718B40524B1201B00050F38 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 		3718B40824B134CC00050F38 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3718B40A24B1379F00050F38 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3722284C24B3B62000B81599 /* Libro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Libro.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				3718B40524B1201B00050F38 /* PDF */,
 				3718B3DE24AFFAC300050F38 /* LaunchScreen.storyboard */,
 				3718B3E124AFFAC300050F38 /* Info.plist */,
+				3722284C24B3B62000B81599 /* Libro.jpg */,
 			);
 			path = LectorPDF;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3722284D24B3B62000B81599 /* Libro.jpg in Resources */,
 				3718B40B24B1379F00050F38 /* images in Resources */,
 				3718B3E024AFFAC300050F38 /* LaunchScreen.storyboard in Resources */,
 				3718B40624B1201B00050F38 /* PDF in Resources */,
